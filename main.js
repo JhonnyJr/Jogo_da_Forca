@@ -10,30 +10,7 @@ window.onload = function init() {  //chama a funcão quando a janela e carregada
 
     palavrachave.style.color = "red";
 
-    Banco_de_palavras = [ 'petroleo', 'pestana', 'pestilento', 'peteleco',
-        'reboque', 'cadafalso', 'cadeira', 'cola', 'rebento',
-        'defumado', 'discurso', 'eletrodomestico', 'eletronica',
-        'engrenagem', 'esfomeado', 'ferralheiro', 'ferrovia',
-        'fertil', 'fortaleza', 'fortificante', 'oficina',
-        'ornamento', 'palavra', 'preocupacao', 'radiologia',
-        'radiografia', 'granja', 'granulado', 'induzido',
-        'imbativel', 'industria', 'internacional', 'labirinto',
-        'lobisomem', 'locomotiva', 'tesoura', 'massagista',
-        'matadouro', 'mochila', 'noroeste', 'nitroglicerina',
-        'helicoptero', 'capitalismo', 'software', 'engenharia',
-        'noroeste', 'autentico', 'linux', 'processador',
-        'quarentena', 'medicina', 'holocausto', 'radiografia',
-        'xarope', 'zarolho', 'zoologico', 'hereditario', 'extase',
-        'extravio', 'duodeno', 'ecologista', 'turismo',
-        'traficante', 'conselho', 'baixista', 'avestruz',
-        'quimica', 'botanica', 'respectivo', 'saxofone', 'taberna',
-        'oculto', 'trigonometria', 'zodiaco', 'justaposto',
-        'hidraulico', 'hexagono', 'mineiro', 'frenetico',
-        'explosivel', 'exorcista', 'carteira', 'brasil', 'amorzinho', 
-        'fresquinho', 'andrezinho', 'bobeira', 'marcos', 'selio', 'jogo', 'mapa',
-        'babado', 'ana', 'critico', 'windows', 'linux', 'macaco', 'panela',
-        'frederico', 'fofura', 'grafico', 'mula', 'cavalo', 'escola', 'mouse',
-        'marrom', 'porta', 'massa', 'palha', 'pupila'];
+    Banco_de_palavras = ['pneumoultramicroscopicosilicovulcanoconiose'];
         
     var rand = Math.floor(Math.random() * Banco_de_palavras.length);
     palavra_secreta = Banco_de_palavras[rand].toUpperCase().split("");
